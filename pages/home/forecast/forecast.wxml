@@ -1,0 +1,47 @@
+<cu-custom bgColor="bg-gradual-orange" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">录取预测</view>
+</cu-custom>
+
+<view class="bg-img  padding-tb-xl" style="background-image: url('../../../images/back.jpg');height: 424rpx;">
+  <view class="container">
+    <view class="container-in">
+      <view class="item">
+        <text>省份</text>
+        <text style="color:black;font-size:28rpx;">河北</text>
+      </view>
+      <view class="line" />
+      <view class="item">
+        <text>成绩</text>
+        <input class="container-result" value="{{}}" maxlength='3' bindinput='' placeholder="点击输入成绩" type='number'></input>
+
+      </view>
+      <view class="line" />
+      <view class="item">
+        <text>批次</text>
+        <picker class="container-result" bindchange="bindPiCiChange" value="{{index}}" range="{{pici_data}}">
+          {{index?pici_data[index]:'本一批'}}
+
+          <text class="cuIcon-unfold lg text-gray">
+        
+         </text>
+
+        </picker>
+      </view>
+      <view class="line" />
+      <view class="item">
+        <text>院校</text>
+        <input class="container-result" value="{{}}" maxlength='30' bindinput='' placeholder="点击输入院校" type='text'></input>
+      </view>
+
+      <view class="line" />
+      <view class="item">
+        <text>位次</text>
+        <input class="container-result" value="{{}}" maxlength='6' bindinput='' placeholder="点击输入位次（数字）" type='number'></input>
+      </view>
+      <view class="line" />
+    </view>
+  </view>
+
+</view>
+<button style="width:700rpx;" bindtap="onTestTap" class="btn cu-btn bg-orange  round  shadow  lg"role="button"aria-disabled="false">开始测评</button>

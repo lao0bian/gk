@@ -1,0 +1,25 @@
+<!--pages/home/pickzhuanye/test/test.wxml-->
+<cu-custom bgColor="bg-gradual-orange" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">专业定向分析</view>
+</cu-custom>
+
+
+<view >
+	<image class='background' src="/images/testbg2.png" mode="aspectFill"></image>
+	<!--问题-->
+  <view class="content">
+     <view class="location">
+      <text>以下活动您对它们的喜欢程度如何</text>
+     </view>
+     <view class="imgtainer">
+      <text bindtap="onCanTap_test_detail">开始</text>
+     </view>
+  </view>
+  
+</view>
+
+
+
+
+

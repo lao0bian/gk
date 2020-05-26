@@ -1,0 +1,23 @@
+<!--pages/home/pickzhuanye/test-begin/test-detail.wxml-->
+<cu-custom bgColor="bg-gradual-orange" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">专业定向分析</view>
+</cu-custom>
+
+
+<view >
+	<image class='background' src="/images/testbg2.png" mode="aspectFill"></image>
+	<!--问题-->
+  <view class="content">
+     <view class="location">
+      <text> {{questionDetail}}</text>
+     </view>
+     <view class="imgtainer">
+     <image src="/images/yes.png" bindtap="yes_next"></image>
+    <image src="/images/no.png" bindtap="no_next"></image>
+     </view>
+  </view>
+  
+</view>
+
+

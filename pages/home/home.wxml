@@ -1,0 +1,56 @@
+<!--pages/home/home.wxml-->
+<cu-custom bgColor="bg-gradual-orange" isBack="{{false}}">
+  <view slot="content">高考志愿规划师</view>
+</cu-custom>
+
+
+<view class='container-top'>
+  <swiper class='swiper' indicator-dots='true' autoplay='true'>
+    <swiper-item>
+      <image src='/images/gaokao.jpg' />
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/gaokao.jpg' />
+    </swiper-item>
+  </swiper>
+</view>
+<view class='options'>
+  <view class='firstcol'>
+    <view class='opt' bindtap='onOptTap'>
+      <image class='option' src='/images/icon/home-school.png'></image>
+      <text class='optiontext'>高校查询</text>
+
+    </view>
+
+    <view class='opt' catchtap='onOptTap'>
+      <image class='option' src='/images/icon/home-career.png' bindtap="onCanTap_pickzhuanye"></image>
+      <text class='optiontext'>专业推荐</text>
+    </view>
+    <view class='opt' catchtap='onOptTap'>
+      <image class='option' src='/images/icon/home-get.png'></image>
+      <text class='optiontext'>录取预测</text>
+    </view>
+
+    <view class='opt' bindtap="onSpecialtyTap">
+      <image class='option' src='/images/icon/home-professor.png'></image>
+      <text class='optiontext'>专家面对面</text>
+    </view>
+  </view>
+</view>
+<view class="container-txt"> 
+<text>高考动态</text>
+<view class="line"></view>
+</view>
+
+<view class="container-content">
+<view class="content-in">
+<view class="content-img">
+<image  src="/images/gaokao.jpg"></image>
+</view>
+<view class="content-txt"><text>近日，教育下发了xxxx通知，规定xxxxxx，修改了xxxxxxxx。</text></view>
+</view>
+</view>
+
+
+
+

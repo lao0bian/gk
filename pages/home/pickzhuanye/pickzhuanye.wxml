@@ -1,0 +1,29 @@
+<!--pages/home/pickzhuanye/pickzhuanye.wxml-->
+<cu-custom bgColor="bg-gradual-orange" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">专业推荐</view>
+</cu-custom>
+
+<view >
+  <view class="head">专业定向分析</view>
+  <view class="box">
+    <image src="/images/hld.jpg" class="hld" bindtap="onCanTap_test"></image>
+    <view class="bar">
+     <view>·六维度性格分析</view>
+     <view>·共计60题</view>
+     <view>·预计10分钟完成</view>
+    </view>
+  </view>
+
+  <view class="head1">人工智能专业分析（开发中）</view>
+  <view class="box">
+    <image src="/images/yjs.jpg" class="hld"></image>
+    <view class="bar">
+     <view>·大数据云计算</view>
+     <view>·共计120题</view>
+     <view>·预计15分钟完成</view>
+     <view>·开发中</view>
+    </view>
+  </view>
+ 
+</view>

@@ -1,0 +1,80 @@
+/* pages/home/forecast/forecast-detail/forecast-detail.wxss */
+page{
+  background-color: #fff;
+}
+.container-top {
+  width: 750rpx;
+  font-size: 24rpx;
+  background-color: white;
+}
+
+.container-top .swiper {
+  width: 750rpx;
+  height: 350rpx;
+  margin: 5rpx 0 0;
+}
+
+.container-top .swiper swiper-item {
+  margin: 0 25rpx;
+  width: 700rpx;
+  height: 320rpx;
+}
+
+.container-top .swiper swiper-item image {
+  width: 700rpx;
+  height: 320rpx;
+  border-radius: 8px;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0rpx 1rpx 100rpx 0rpx rgb(227, 227, 227);
+}
+.container-down{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10rpx;
+  align-items: center;
+  
+}
+
+.table{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 740rpx;
+  border: 0.5rpx solid #5B6B73 ;
+}
+.tr{
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.td{
+  border: 0.5rpx solid #5B6B73 ;
+    width:40%; 
+    justify-content: center;
+    line-height: 2rem;
+    text-align: center;
+    color: black;
+}
+.container-down .analyse{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  margin-top: 30rpx;
+  width: 100%;
+  height: 70rpx;
+  border: 1px solid #5B6B73 ;
+}
+.container-down .analyse text{
+  margin-left: 30rpx;
+}
+.text-container{
+  width: 100%;
+  height: 490rpx;
+background-color: white;
+}
+

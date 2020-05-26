@@ -1,0 +1,46 @@
+<cu-custom bgColor="bg-gradual-orange" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">预测详情</view>
+</cu-custom>
+
+
+<view class='container-top'>
+  <swiper class='swiper' indicator-dots='true' autoplay='true'>
+    <swiper-item>
+      <image src='/images/gaokao.jpg' />
+    </swiper-item>
+    <swiper-item>
+      <image src='/images/gaokao.jpg' />
+    </swiper-item>
+  </swiper>
+</view>
+<view class="container-down">
+  <view class="table">
+    <view class="tr">
+      <view class="td">序号</view>
+      <view class="td">专业名称</view>
+      <view class="td">录取概率</view>
+    </view>
+
+    <block wx:for="{{listData}}" wx:key="{{code}}">
+      <view class="tr">
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+        <view class="td">{{item.type}}</view>
+      </view>
+    </block>
+  </view >
+  <view class="analyse">
+    <text>综合分析：70.22%</text>
+    <button style="margin-left:290rpx;width:176rpx; font-weight:normal;" class="cu-btn bg-green " role="button" aria-disabled="false">
+      专家解读
+    </button>
+  </view>
+  <view class="text-container">
+  <view class="solid-bottom text-df padding">专注视觉的小程序组件库</view>
+  <view class="solid-bottom text-df padding">专注视觉的小程序组件库</view>
+  <view class="solid-bottom text-df padding">专注视觉的小程序组件库</view>
+  <view class="solid-bottom text-df padding">专注视觉的小程序组件库</view>
+  </view>
+
+</view>

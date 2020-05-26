@@ -1,0 +1,54 @@
+/* pages/home/forecast/forecast.wxss */
+.container{
+  position: relative; 
+  left: 25rpx;
+  top: 280rpx;
+  width: 700rpx;
+  height: 620rpx;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0rpx 0rpx 50rpx 0rpx rgba(70, 62, 56, 0.26);
+  
+}
+.container-in{
+  position: relative;
+  top: -120rpx;
+}
+
+.line{
+   height: 1px;
+  width: 560rpx;
+  background-color: #f0f0f0;
+  margin: 0 50rpx 0 50rpx;
+}
+
+.item {
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  padding: 30rpx 0 30rpx 0;
+  
+}
+
+.item text {
+  margin-left: 30rpx;
+  font-size: 26rpx;
+  line-height: 28rpx;
+  color: grey;
+}
+
+
+.container-result{
+  margin-left: 30rpx;
+}
+
+.btn{
+  display: flex;
+  position: relative;
+  top:600rpx;
+  left: 28rpx;
+  
+}

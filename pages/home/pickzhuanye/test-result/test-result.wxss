@@ -1,0 +1,130 @@
+/* pages/home/pickzhuanye/test-begin/test-result.wxss */
+
+.cpResult{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  height: 80rpx;
+}
+.title image{
+  width: 46rpx;
+  height: 46rpx;
+  margin: 10rpx;
+}
+.title text{
+  font-size: 30rpx;
+}
+
+.scorener{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top:2rpx;
+  height: auto; 
+  width: 100%;                                       
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.scorener-2{
+  display: flex;
+  flex-direction: column;
+  background-color:#BBBBBE 2% ;
+  margin-top:2rpx;
+  height: auto; 
+  width: 100%;                                       
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.score{
+  display: flex;
+  flex-direction: column;
+  width: 460rpx;
+  border: gainsboro solid 2rpx;
+  border-radius: 10rpx;
+  height: 620rpx;
+  margin: 5% 25% 5% 25%;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.scr{
+  display: flex;
+  width: 380rpx;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: gainsboro solid 2rpx; 
+  margin: 0 5rpx 5rpx 5rpx;
+}
+
+.lx{
+  font-size: 32rpx;
+}
+
+.fs{
+  font-size: 36rpx;
+  color:rgba(252, 145, 16, 1);
+  
+}
+.fs-2{
+  padding-left: 70rpx;
+  padding-top: 50rpx;
+  font-size: 36rpx;
+  color:rgba(252, 145, 16, 1);
+}
+
+.fxner{
+  display: flex;
+  flex-direction: column;
+  
+ 
+/*   margin: 5% 0 5% 5%; */
+  
+}
+
+.fxtent{
+  display: flex;
+  flex-direction: column;
+  border: gainsboro solid 2rpx;
+  background-color: white;
+  height: auto;
+  border-radius: 10rpx;
+  margin: 5% 5% 5% 5%;
+  padding: 5%;
+  font-family:Microsoft YaHei;
+}
+
+.item-title{
+  width: 134rpx;
+  height: 54rpx;
+  display: flex;
+  position: relative;
+  z-index: 3;
+  top: 54rpx;
+  left: 36rpx;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ background-color: rgba(252, 145, 16, 1);
+  border: gainsboro solid 1rpx;
+  border-radius: 6rpx;
+}
+.item-title text{
+  font-size: 28rpx;
+ 
+  color: white;
+}

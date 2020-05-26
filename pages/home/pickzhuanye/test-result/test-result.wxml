@@ -1,0 +1,55 @@
+<!--pages/home/pickzhuanye/test-begin/test-result.wxml-->
+<cu-custom bgColor="bg-gradual-orange" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">专业定向分析</view>
+</cu-custom>
+
+<view class="cpResult">
+  <view class='title'>
+    <image src='/images/icon/result.png'></image>
+    <text>测评结果</text>
+  </view>
+  <view class="scorener">
+    <view class="score" >
+    <!--   <button bindtap="mySort" data-property="score">排序</button> -->
+      <view class="scr" wx:for="{{typelist}}" wx:key="id" wx:for-item="item" data-id="{{item.id}}">
+        <text class='lx'>{{item.name}}</text><text class="fs">{{item.score}}分</text>
+      </view>
+      
+    </view>
+  </view>
+  
+   <view class='title'>
+    <image src='/images/icon/result.png'></image>
+    <text>测评结果分析</text>
+  </view>
+  <view class="scorener-2">
+    <view class="fxner" wx:for="{{typelist}}" wx:key="id" wx:for-item="item" data-id="{{item.id}}">
+     <text class="fs-2">{{item.name}}{{item.score}}分</text> 
+     <view class="item-title"><text>性格分析</text></view>
+     <view class="fxtent"><text>{{item.detail}}</text></view>
+    </view>
+  </view>
+
+   <view class='title'>
+    <image src='/images/icon/result.png'></image>
+    <text>专业推荐</text>
+  </view>
+  <view class="item-title"><text>推荐专业</text></view>
+  <view class="scorener-2" >
+  
+   <view class="fxtent">教育学；学前教育学；xxxxxx；xxxxxx；xxxxxx；xx
+xxxx；xxxxxx
+   </view>
+  </view>
+   
+   <view class='title'>
+    <image src='/images/icon/result.png'></image>
+    <text>职业推荐</text>
+  </view>
+  <view class="scorener-2">
+  
+   <view class="fxtent" wx:for="{{typelist}}" wx:key="id" wx:for-item="item" data-id="{{item.id}}">{{item.name}}:{{item.profession}}
+   </view>
+  </view>
+</view>

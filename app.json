@@ -1,0 +1,62 @@
+{
+  "pages": [
+
+     "pages/home/home",
+   
+    "pages/home/pickzhuanye/test-result/test-result",
+    "pages/home/pickzhuanye/test-detail/test-detail",
+   
+ 
+    
+    
+   
+  
+   
+    "pages/home/pickzhuanye/test-begin/test",
+    "pages/home/pickzhuanye/pickzhuanye",
+    "pages/home/forecast/forecast-detail/forecast-detail",
+    "pages/home/forecast/forecast",
+    "pages/mine/mine"
+   
+  ],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/icon/home.png",
+        "selectedIconPath": "images/icon/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/icon/home-mine.png",
+        "selectedIconPath": "images/icon/home-mine1.png",
+        "text": "智能分析"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/icon/home-mine.png",
+        "selectedIconPath": "images/icon/home-mine1.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/icon/home-mine.png",
+        "selectedIconPath": "images/icon/home-mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}
